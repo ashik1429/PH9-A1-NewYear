@@ -6,7 +6,6 @@ section {
 
 main section {
     margin-top: 120px;
-    text-align: center;
 }
 
 /* banner section styles */
@@ -14,6 +13,7 @@ main section {
 .banner-section {
     border-radius: 16px;
     background-image: url('./resources/Banner_Image.png');
+    background-repeat: no-repeat;
     height: 600px;
     color: #FFF;
     font-family: 'Merriweather', serif;
@@ -38,9 +38,11 @@ main section {
 /* discount section styles */
 .discount-section {
     font-family: 'Inter', sans-serif;
+    text-align: center;
+
 }
 
-.discount-section *{
+.discount-section * {
     margin: 0px;
 }
 
@@ -67,7 +69,74 @@ main section {
     margin-bottom: 48px;
 }
 
-.discount-section img{
+.discount-section img {
     width: 803px;
     height: 500px;
+}
+
+
+/* invitation-section styles */
+
+.invitation-section {
+    display: flex;
+    background-image: url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+}
+
+
+
+.invitation-text {
+    width: 60%;
+}
+
+.invitation-img {
+    width: 40%;
+}
+.invitation-img img{
+    padding-left: 50px;
+    width: 320px;
+    height: 464px;
+}
+
+
+.invitation-text h2,
+p {
+    margin-left: 126px;
+
+}
+
+.invitation-text h2 {
+    font-family: Merriweather;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-top: 126px;
+    margin-bottom: 0px;
+}
+
+.invitation-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.invitation-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 158px;
+    margin-bottom: 142px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
 }
