@@ -94,7 +94,8 @@ main section {
 .invitation-img {
     width: 40%;
 }
-.invitation-img img{
+
+.invitation-img img {
     padding-left: 50px;
     width: 320px;
     height: 464px;
@@ -139,4 +140,45 @@ p {
     background: none;
     cursor: pointer;
     padding: 0;
+}
+
+/* portfolio-section styles */
+
+.portfolio-section h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.portfolio-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.portfolio-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 16px 0px 48px;
+    width: 70%;
+}
+
+.accessory-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accessory-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
 }
