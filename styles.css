@@ -1,3 +1,31 @@
-body{
-    background-color: purple;
+/* Common Styels */
+section {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner section styles */
+
+.banner-section {
+    border-radius: 16px;
+    background-image: url('./resources/Banner_Image.png');
+    height: 600px;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.banner-section h2 {
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 340px 177px;
+    margin-top: 0px;
+}
+
+.banner-section h3 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 530px 10px;
+    margin-bottom: 0px;
+
 }
