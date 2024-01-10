@@ -264,6 +264,7 @@ footer {
 .address-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 120px;
 }
 
 .address-container p {
@@ -275,12 +276,23 @@ footer {
     margin: 0px;
 }
 
-.address-container p:first-child {
+/* .address-container p:first-child {
     margin-top: 120px;
-}
+} */
 
 .virtual-contact{
     margin-right: 120px;
+}
+
+.virtual-contact img{
+    width: 24px;
+    height: 24px;
+}
+
+.phone-number, .web-site{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 hr {
@@ -406,3 +418,4 @@ hr {
     height: 140px;
     margin-top: 40px;
 }
+
